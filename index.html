@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brew Haven Coffee Shop</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!--==================== TOP BAR ====================-->
+
+<div class="top-bar">
+
+    <div class="top-left">
+
+        <span><i class="fa-solid fa-phone"></i> +855 12 345 678</span>
+
+        <span><i class="fa-solid fa-envelope"></i> info@brewhaven.com</span>
+
+    </div>
+
+    <div class="top-right">
+
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+        <a href="#"><i class="fab fa-instagram"></i></a>
+
+        <a href="#"><i class="fab fa-twitter"></i></a>
+
+    </div>
+
+</div>
+
+<!--==================== HEADER ====================-->
+
+<header>
+
+    <nav>
+
+        <div class="logo">
+            <i class="fa-solid fa-mug-hot"></i>
+            Brew Haven
+        </div>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="menu.html">Menu</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="testimonials.html">Testimonials</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <div class="nav-icons">
+
+            <!-- Search -->
+            <a href="#" id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+
+            <!-- Reservation -->
+            <a href="reservation.html">
+                <i class="fa-solid fa-calendar-check"></i>
+            </a>
+
+            <!-- Login -->
+            <a href="login.html">
+                <i class="fa-regular fa-user"></i>
+            </a>
+
+            <!-- Shopping Cart -->
+            <a href="cart.html" class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>3</span>
+            </a>
+
+            <!-- Dark Mode -->
+            <button id="darkMode" class="dark-btn">
+                🌙
+            </button>
+
+        </div>
+
+</div>
+
+    </nav>
+
+</header>
+<div class="search-box" id="searchBox">
+
+    <input
+        type="text"
+        placeholder="Search coffee..."
+    >
+
+    <button>
+        Search
+    </button>
+
+</div>
+
+
+<!--==================== HERO ====================-->
+
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span>WELCOME TO BREW HAVEN</span>
+
+        <h1>
+
+            Fresh Coffee<br>
+
+            Fresh Morning
+
+        </h1>
+
+        <p>
+
+            Enjoy premium handcrafted coffee, delicious desserts,
+            and a relaxing atmosphere. Every cup is brewed with passion
+            using carefully selected coffee beans.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#" class="btn">Order Now</a>
+
+            <a href="#" class="btn-outline">Explore Menu</a>
+
+        </div>
+
+    </div>
+
+    <!-- Floating Card -->
+
+    <div class="hero-card">
+
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=80" alt="Coffee">
+
+        <div class="card-content">
+
+            <h3>Signature Latte</h3>
+
+            <div class="rating">
+
+                ⭐⭐⭐⭐⭐
+
+            </div>
+
+            <p>
+
+                Rich espresso blended with creamy steamed milk.
+
+            </p>
+
+            <h4>$4.99</h4>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--========================================================-->
+<!--   NEXT PART STARTS HERE (About + Features + Statistics) -->
+<!--========================================================-->
+<!--==================== FEATURES ====================-->
+
+<section class="features">
+
+    <div class="feature-box">
+
+        <i class="fa-solid fa-mug-hot"></i>
+
+        <h3>Premium Coffee</h3>
+
+        <p>Freshly brewed coffee made from carefully selected beans.</p>
+
+    </div>
+
+    <div class="feature-box">
+
+        <i class="fa-solid fa-cake-candles"></i>
+
+        <h3>Fresh Desserts</h3>
+
+        <p>Enjoy delicious cakes, cookies, and pastries every day.</p>
+
+    </div>
+
+    <div class="feature-box">
+
+        <i class="fa-solid fa-truck-fast"></i>
+
+        <h3>Fast Delivery</h3>
+
+        <p>Quick and reliable coffee delivery to your doorstep.</p>
+
+    </div>
+
+    <div class="feature-box">
+
+        <i class="fa-solid fa-heart"></i>
+
+        <h3>Made With Love</h3>
+
+        <p>Every drink is prepared with passion by our expert baristas.</p>
+
+    </div>
+
+</section>
+
+<!--==================== ABOUT ====================-->
+
+<section class="about">
+
+    <div class="about-image">
+
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" alt="Coffee Shop">
+
+    </div>
+
+    <div class="about-content">
+
+        <span>ABOUT US</span>
+
+        <h2>Welcome To Brew Haven</h2>
+
+        <p>
+
+            Brew Haven is more than just a coffee shop.
+            We provide premium coffee, handcrafted beverages,
+            delicious desserts, and a relaxing atmosphere where
+            friends and families can enjoy unforgettable moments.
+
+        </p>
+
+        <a href="#" class="btn">
+
+            Learn More
+
+        </a>
+
+    </div>
+
+</section>
+
+<!--==================== STATISTICS ====================-->
+
+<section class="stats">
+
+    <div class="stat-box">
+
+        <i class="fa-solid fa-users"></i>
+
+        <h2>15K+</h2>
+
+        <p>Happy Customers</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <i class="fa-solid fa-mug-hot"></i>
+
+        <h2>120+</h2>
+
+        <p>Coffee Recipes</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <i class="fa-solid fa-award"></i>
+
+        <h2>15</h2>
+
+        <p>Industry Awards</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <i class="fa-solid fa-user-tie"></i>
+
+        <h2>25+</h2>
+
+        <p>Professional Baristas</p>
+
+    </div>
+
+</section>
+
+<!--==================== MENU ====================-->
+
+<section class="menu">
+
+    <div class="section-title">
+
+        <span>OUR MENU</span>
+
+        <h2>Popular Coffee</h2>
+
+        <p>
+
+            Discover our best-selling handcrafted coffee drinks.
+
+        </p>
+
+    </div>
+
+    <div class="menu-container">
+
+        <!-- Coffee 1 -->
+
+        <div class="coffee-card">
+
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=700&q=80" alt="Latte">
+
+            <div class="coffee-info">
+
+                <h3>Signature Latte</h3>
+
+                <div class="stars">
+
+                    ★★★★★
+
+                </div>
+
+                <p>
+
+                    Smooth espresso mixed with creamy steamed milk.
+
+                </p>
+
+                <div class="price">
+
+                    <h4>$4.99</h4>
+
+                    <a href="#">Order</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Coffee 2 -->
+
+        <div class="coffee-card">
+
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=80" alt="Espresso">
+
+            <div class="coffee-info">
+
+                <h3>Classic Espresso</h3>
+
+                <div class="stars">
+
+                    ★★★★★
+
+                </div>
+
+                <p>
+
+                    Rich and bold espresso with a smooth finish.
+
+                </p>
+
+                <div class="price">
+
+                    <h4>$3.99</h4>
+
+                    <a href="#">Order</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Coffee 3 -->
+
+        <div class="coffee-card">
+
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=80" alt="Cappuccino">
+
+            <div class="coffee-info">
+
+                <h3>Cappuccino</h3>
+
+                <div class="stars">
+
+                    ★★★★★
+
+                </div>
+
+                <p>
+
+                    Espresso with steamed milk and rich milk foam.
+
+                </p>
+
+                <div class="price">
+
+                    <h4>$4.50</h4>
+
+                    <a href="#">Order</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--========================================================-->
+<!-- NEXT PART: Gallery + Team + Testimonials -->
+<!--========================================================-->
+<!--==================== SPECIAL OFFER ====================-->
+
+<section class="offer">
+
+    <div class="offer-content">
+
+        <span>LIMITED OFFER</span>
+
+        <h2>Get 30% Off<br>Your First Coffee</h2>
+
+        <p>
+            Join Brew Haven today and enjoy premium coffee
+            at a special discounted price.
+        </p>
+
+        <a href="#" class="btn">
+            Order Now
+        </a>
+
+    </div>
+
+</section>
+
+<!--==================== GALLERY ====================-->
+
+<section class="gallery">
+
+    <div class="section-title">
+
+        <span>OUR GALLERY</span>
+
+        <h2>Coffee Moments</h2>
+
+        <p>
+            Take a look at our cozy coffee shop and delicious drinks.
+        </p>
+
+    </div>
+
+    <div class="gallery-container">
+
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=80" alt="Coffee">
+
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=700&q=80" alt="Coffee">
+
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=80" alt="Coffee">
+
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=80" alt="Coffee Shop">
+
+        <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=700&q=80" alt="Coffee">
+
+        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80" alt="Coffee">
+
+    </div>
+
+</section>
+
+<!--==================== WHY CHOOSE US ====================-->
+
+<section class="why-us">
+
+    <div class="section-title">
+
+        <span>WHY CHOOSE US</span>
+
+        <h2>Why Customers Love Brew Haven</h2>
+
+        <p>
+            We are committed to serving premium coffee with excellent service
+            in a warm and comfortable atmosphere.
+        </p>
+
+    </div>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <i class="fa-solid fa-seedling"></i>
+            <h3>Fresh Coffee Beans</h3>
+            <p>We use high-quality coffee beans for every cup.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <h3>Fresh Desserts</h3>
+            <p>Fresh cakes and pastries are baked daily.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-wifi"></i>
+            <h3>Free Wi-Fi</h3>
+            <p>A perfect place to study, work, or relax.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-mug-hot"></i>
+            <h3>Comfortable Atmosphere</h3>
+            <p>Enjoy a relaxing environment with friendly service.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== TESTIMONIALS ====================-->
+
+<section class="testimonials">
+
+    <div class="testimonial-card">
+
+    <img src="images/johnny.jpg" alt="Johnny">
+
+    <h3>Johnny</h3>
+
+    <div class="stars">★★★★★</div>
+
+    <p>
+        "This coffee changed my life!"
+    </p>
+
+</div>
+
+<div class="testimonial-card">
+
+    <img src="images/ambatukam.jpg" alt="Ambatukam">
+
+    <h3>Ambatukam</h3>
+
+    <div class="stars">★★★★★</div>
+
+    <p>
+        "The caramel latte is amazing!"
+    </p>
+
+</div>
+
+<div class="testimonial-card">
+
+    <img src="images/bullets.jpg" alt="Need More Bullets">
+
+    <h3>I Need More Bullets</h3>
+
+    <div class="stars">★★★★★</div>
+
+    <p>
+        "I didn't need more bullets... I needed more coffee!"
+    </p>
+
+</div>
+
+</section>
+
+<!--========================================================-->
+<!-- NEXT PART STARTS HERE (Contact + Newsletter + Footer) -->
+<!--========================================================-->
+<!--==================== CONTACT ====================-->
+
+<section class="contact">
+
+    <div class="section-title">
+
+        <span>CONTACT US</span>
+
+        <h2>Visit Brew Haven Today</h2>
+
+        <p>
+            We'd love to hear from you. Visit us or send us a message.
+        </p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <div class="info-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Address</h3>
+                <p>123 Coffee Street, Phnom Penh, Cambodia</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone</h3>
+                <p>+855 12 345 678</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>info@brewhaven.com</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Opening Hours</h3>
+                <p>Monday - Sunday</p>
+                <p>7:00 AM - 10:00 PM</p>
+            </div>
+
+        </div>
+
+        <div class="contact-form">
+
+            <form>
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Email Address" required>
+
+                <input type="text" placeholder="Subject">
+
+                <textarea rows="6" placeholder="Write your message"></textarea>
+
+                <button class="btn">Send Message</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!--==================== NEWSLETTER ====================-->
+
+<section class="newsletter">
+
+    <div class="newsletter-content">
+
+        <h2>Subscribe To Our Newsletter</h2>
+
+        <p>
+            Get updates about new coffee, desserts, and special offers.
+        </p>
+
+        <form>
+
+            <input type="email" placeholder="Enter your email">
+
+            <button class="btn">
+
+                Subscribe
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!--==================== FOOTER ====================-->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>Brew Haven</h2>
+
+            <p>
+
+                Premium coffee made with passion.
+                We serve the finest handcrafted coffee
+                and desserts every day.
+
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-twitter"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">About</a></li>
+
+                <li><a href="#">Menu</a></li>
+
+                <li><a href="#">Gallery</a></li>
+
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Our Menu</h3>
+
+            <ul>
+
+                <li><a href="#">Espresso</a></li>
+
+                <li><a href="#">Latte</a></li>
+
+                <li><a href="#">Cappuccino</a></li>
+
+                <li><a href="#">Mocha</a></li>
+
+                <li><a href="#">Desserts</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p>📍 Phnom Penh, Cambodia</p>
+
+            <p>📞 +855 12 345 678</p>
+
+            <p>📧 info@brewhaven.com</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+
+            © 2026 Brew Haven Coffee Shop | All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+<button id="topBtn">
+    ↑
+</button>
+<script src="script.js"></script>
+
+</body>
+
+</html>
